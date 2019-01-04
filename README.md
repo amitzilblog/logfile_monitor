@@ -1,7 +1,8 @@
 # logfile_monitor
 A short script to provide infra to scan only new lines in a log for monitoring purposes
 
-This is the infra for monitoring a log file using bash and this is how it works:
+This is the infra for monitoring a log file using bash
+
 Usage is:
 line=$(getFileLine "SYSLOG" "${my_log}") # this will get the last line that was scanned in the log
 ((line++)) # increase the line by one
